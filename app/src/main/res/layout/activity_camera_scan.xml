@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SurfaceView
+        android:id="@+id/camera_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.example.bayan_oh.inspect.Core.ExtraViews.FocusBoxView
+        android:id="@+id/focus_box"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/cancel_button"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/ic_cancel" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/focus_button"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/ic_focus"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/capture_button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/ic_shutter"
+        android:layout_marginRight="10dp" />
+
+
+</FrameLayout>

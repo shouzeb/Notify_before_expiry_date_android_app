@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Inspect</string>
+
+    <string name="action_add_product">Add Product</string>
+    <string name="action_add_category">Add Category</string>
+    <string name="title_activity_help">Help</string>
+    <string name="Scanned_Expiration_Date">Scanned Expiration Date</string>
+    <string name="date_hint">DD-MM-YYYY</string>
+    <string name="cancel">CANCEL</string>
+    <string name="next">NEXT</string>
+    <string name="changeDate">CHANGE DATE</string>
+    <string name="title_activity_fill_exp_date">Scanned Expiration Date</string>
+    <string name="title_activity_camera_scan">Camera Scan</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_add_category">Add A Category</string>
+    <string name="title_activity_edit_project">Edit A Product</string>
+    <string name="title_activity_add_product">Add A Product</string>
+    <string name="help"><u>Help</u></string>
+    <string name="action_settings">Settings</string>
+
+</resources>

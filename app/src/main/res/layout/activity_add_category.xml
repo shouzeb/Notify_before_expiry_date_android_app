@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#faede5"
+    tools:context="com.example.bayan_oh.inspect.AddEditCategoryActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category Name:"
+        android:id="@+id/textView3"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=""
+        android:id="@+id/cattxt"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category Icon:"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon_grid"
+        android:columnCount="5"
+        android:orientation="horizontal">
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/food"
+            android:src="@drawable/food"
+            android:clickable="true"
+            android:onClick="setSelectedIcon" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/beauty"
+        android:src="@drawable/beauty"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/bread"
+        android:src="@drawable/bread"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/dairy"
+        android:src="@drawable/dairy"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/meat"
+        android:src="@drawable/meat"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/veggies"
+        android:src="@drawable/veggies"
+        android:clickable="true"
+        android:onClick="setSelectedIcon" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/fruits"
+        android:src="@drawable/fruits"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/drinks"
+        android:src="@drawable/drinks"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/sweets"
+        android:src="@drawable/sweets"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/medicine"
+        android:src="@drawable/medicine"
+        android:clickable="true"
+        android:onClick="setSelectedIcon"
+        android:layout_marginLeft="20dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/other"
+        android:src="@drawable/other"
+        android:clickable="true"
+        android:onClick="setSelectedIcon" />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/save"
+        android:layout_gravity="right"
+        android:onClick="addCategory"
+        android:layout_marginTop="20dp"
+        android:background="#ffc19f"/>
+
+</LinearLayout>
